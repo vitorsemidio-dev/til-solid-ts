@@ -4,10 +4,16 @@
   "main": "index.js",
   "author": "Vitor Emidio <vitorsemidio.96@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "tsc:init": "tsc --init"
+  },
   "devDependencies": {
     "ts-loader": "^7.0.0",
     "typescript": "^3.8.3",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "tsc": "^1.20150623.0"
   }
 }
