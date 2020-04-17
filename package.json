@@ -5,7 +5,8 @@
   "author": "Vitor Emidio <vitorsemidio.96@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "tsc:init": "tsc --init"
+    "tsc:init": "tsc --init",
+    "build": "webpack"
   },
   "devDependencies": {
     "ts-loader": "^7.0.0",
